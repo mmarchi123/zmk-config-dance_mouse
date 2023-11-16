@@ -1,0 +1,13 @@
+file_format: "1"
+id: dance
+name: dance!
+type: shield
+url: https://github.com/chase-hunter/dance
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - dance_left
+  - dance_right
