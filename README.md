@@ -1,2 +1,2 @@
 # dance!
-in progress
+![dance! Keymap](keymap_img/dance_keymap.svg)
