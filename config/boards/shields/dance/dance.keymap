@@ -94,8 +94,13 @@
     combos {
         compatible = "zmk,combos";
 
-        uienter {
+        jkentert {
             bindings = <&kp RET>;
+            key-positions = <16 17>;
+        };
+
+        uibackspace {
+            bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
         };
     };
