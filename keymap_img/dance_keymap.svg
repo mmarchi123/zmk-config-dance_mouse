@@ -227,8 +227,12 @@ path {
 <text x="0" y="-24" class="key shifted">⌦</text>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="595" y="82" width="28" height="26" class="combo"/>
+<text x="609" y="95" class="combo tap">RET</text>
+</g>
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="595" y="26" width="28" height="26" class="combo"/>
-<text x="609" y="39" class="combo tap">RET</text>
+<text x="609" y="39" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -386,8 +390,12 @@ path {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="595" y="82" width="28" height="26" class="combo"/>
+<text x="609" y="95" class="combo tap">RET</text>
+</g>
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="595" y="26" width="28" height="26" class="combo"/>
-<text x="609" y="39" class="combo tap">RET</text>
+<text x="609" y="39" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -546,8 +554,12 @@ path {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="595" y="82" width="28" height="26" class="combo"/>
+<text x="609" y="95" class="combo tap">RET</text>
+</g>
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="595" y="26" width="28" height="26" class="combo"/>
-<text x="609" y="39" class="combo tap">RET</text>
+<text x="609" y="39" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
@@ -706,8 +718,12 @@ path {
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g class="combo combopos-0">
+<rect rx="6" ry="6" x="595" y="82" width="28" height="26" class="combo"/>
+<text x="609" y="95" class="combo tap">RET</text>
+</g>
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="595" y="26" width="28" height="26" class="combo"/>
-<text x="609" y="39" class="combo tap">RET</text>
+<text x="609" y="39" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 </g>
 </g>
