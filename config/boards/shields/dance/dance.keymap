@@ -112,6 +112,16 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
         };
+
+        dfcopy {
+            bindings = <&kp LC(C)>;
+            key-positions = <12 13>;
+        };
+
+        erpaste {
+            bindings = <&kp LC(V)>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {
