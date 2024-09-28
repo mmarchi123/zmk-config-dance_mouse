@@ -16,6 +16,20 @@
 #define NUM 2
 #define NAV 3
 #define FUN 4
+#define MOUSE 5
+
+&mmv {
+    acceleration-exponent = <1>;      // 1
+    time-to-max-speed-ms = <400>;     // 300
+    delay-ms = <0>;                   // 0
+};
+
+&msc {
+    acceleration-exponent = <1>;      // 0
+    time-to-max-speed-ms = <0>;      // 300
+    delay-ms = <0>;                   // 0
+};
+
 
 / {
     conditional_layers {
@@ -167,10 +181,19 @@
 
         fun_layer {
             bindings = <
-  &tog COLEMAK  &trans        &trans        &sys_reset    &out OUT_TOG    &trans  &kp F7  &kp F8  &kp F9  &kp F12
+  &tog MOUSE  &trans        &trans        &sys_reset    &out OUT_TOG    &trans  &kp F7  &kp F8  &kp F9  &kp F12
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp F4  &kp F5  &kp F6  &kp F11
   &trans        &trans        &bt BT_CLR    &trans        &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10
                               &trans        &trans        &trans          &trans  &trans  &trans
+            >;
+        };
+
+        mouse_layer {
+            bindings = < 
+    TR  TR  TR  TR  TR  TR      TR              TR              TR            TR              &caps_word  TR
+    TR  TR  TR  TR  TR  TR      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT TR  TR
+    TR  TR  TR  TR  TR  TR      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT TR  TR
+    TR  &trans  TR                  &mkp LCLK       &trans  TR 
             >;
         };
     };
