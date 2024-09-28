@@ -19,7 +19,7 @@
 #define MOUSE 5
 
 &mmv {
-    acceleration-exponent = <2>;      // 1
+    acceleration-exponent = <1>;      // 1
     time-to-max-speed-ms = <400>;     // 300
     delay-ms = <0>;                   // 0
 };
