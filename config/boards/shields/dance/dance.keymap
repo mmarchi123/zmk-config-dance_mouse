@@ -132,6 +132,11 @@
             bindings = <&kp LC(V)>;
             key-positions = <2 3>;
         };
+
+        agtomouse {
+            bindings = <&to 5>;
+            key-positions = <10 14>;
+        };
     };
 
     keymap {
