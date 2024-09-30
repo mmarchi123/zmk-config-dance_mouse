@@ -133,8 +133,8 @@
             key-positions = <2 3>;
         };
 
-        agtogmouse {
-            bindings = <&tog 5>;
+        agstickymouse {
+            bindings = <&sl 5>;
             key-positions = <10 14>;
         };
     };
