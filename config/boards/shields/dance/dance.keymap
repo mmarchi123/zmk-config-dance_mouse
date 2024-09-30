@@ -18,6 +18,8 @@
 #define FUN 4
 #define MOUSE 5
 
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 35
+
 &mmv {
     acceleration-exponent = <1>;      // 1
     time-to-max-speed-ms = <300>;     // 300
