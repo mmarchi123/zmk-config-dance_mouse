@@ -193,9 +193,14 @@
             key-positions = <4 3>;
         };
 
-        cmb_mousebo_left {
+        cmb_mouse_left {
             bindings = <&mkp LCLK>;
-            key-positions = <14 13>;
+            key-positions = <15 13>;
+        };
+
+        cmb_mouse_right {
+            bindings = <&mkp RCLK>;
+            key-positions = <15 5>;
         };
     };
 
