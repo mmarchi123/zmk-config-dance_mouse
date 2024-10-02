@@ -195,12 +195,12 @@
 
         cmb_mouse_left {
             bindings = <&mkp LCLK>;
-            key-positions = <13 15>;
+            key-positions = <12 14>;
         };
 
         cmb_mouse_right {
             bindings = <&mkp RCLK>;
-            key-positions = <13 4>;
+            key-positions = <4 12>;
         };
     };
 
